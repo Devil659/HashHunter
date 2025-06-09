@@ -1,0 +1,82 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        🔐 Hashunter v2.0
+      Author: devil659
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📦 Tool Purpose:
+──────────────────────────────
+Hashunter is a command-line tool for Kali Linux to detect and crack hashes (MD5, SHA1, SHA256, SHA512) using a wordlist.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🛠 Requirements:
+──────────────────────────────
+- Python 3
+- pip3 (Python package manager)
+- Kali Linux system
+- Internet connection (to install dependencies)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 Files:
+──────────────────────────────
+1. Hashunter.py          ← Main tool
+2. install_hashunter.sh  ← Installer script
+3. requirements.txt      ← Python dependencies
+4. instruction.txt       ← You’re reading it!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 Installation Steps:
+──────────────────────────────
+1. Open Terminal.
+2. Give the install script permission to run:
+   chmod +x install_hashunter.sh
+
+3. Run the installer:
+   ./install_hashunter.sh
+
+4. This will:
+   - Install Python dependencies.
+   - Move tool to `~/.hashunter/`
+   - Add a shortcut command: `hashunter`
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🧠 Usage:
+──────────────────────────────
+Basic Command:
+
+   hashunter <hash_file> <wordlist> <output_file>
+
+Example:
+
+   hashunter hashes.txt rockyou.txt cracked.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📤 Output:
+──────────────────────────────
+- Cracked hashes will be saved to the file you specify.
+- Output format: <hash>:<cracked_password>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔁 Supported Hash Types:
+──────────────────────────────
+- MD5
+- SHA1
+- SHA256
+- SHA512
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 Notes:
+──────────────────────────────
+- Make sure your hash and wordlist files are in correct format (1 per line).
+- Avoid empty lines in files.
+- Use with ethical and legal intent only!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+         ⚠️ by devil659
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
