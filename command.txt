@@ -1,0 +1,1 @@
+python3 final.py hash.txt /home/kali/Desktop/rockyou.txt cracked.txt
